@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 175px;
+    height: 70px;
+    object-fit: none;
+    background-color: white;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,7 @@
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-container {
+    display: flex;
+}

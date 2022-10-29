@@ -1,0 +1,214 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "code": "21012",
+      "name": "Cygnus 3D",
+      "type": "Normal",
+      "startDate": "12-07-2021",
+      "endDate": "29-10-2021",
+      "source": "Webtool",
+      "status": "running"
+    },
+    {
+      "id": 2,
+      "code": "21009",
+      "name": "Hercules",
+      "type": "Normal",
+      "startDate": "15-06-2021",
+      "endDate": "30-11-2021",
+      "source": "Webtool",
+      "status": "running"
+    },
+    {
+      "id": 3,
+      "code": "21005",
+      "name": "Saturn SD",
+      "type": "Normal",
+      "startDate": "23-04-2021",
+      "endDate": "31-10-2021",
+      "source": "Webtool",
+      "status": "running"
+    },
+    {
+      "id": 4,
+      "code": "21010",
+      "name": "Pegasus",
+      "type": "Normal",
+      "startDate": "21-06-2021",
+      "endDate": "08-08-2021",
+      "source": "Webtool",
+      "status": "completed"
+    }
+  ],
+  "kpi": [
+    {
+      "id": 1,
+      "no": "1",
+      "from": "0%",
+      "to": "99%",
+      "kpiSalary": "0",
+      "conditions": "<"
+    },
+    {
+      "id": 2,
+      "no": "2",
+      "from": "99%",
+      "to": "110%",
+      "kpiSalary": "1200000",
+      "conditions": "IN"
+    },
+    {
+      "id": 3,
+      "no": "3",
+      "from": "111%",
+      "to": "120%",
+      "kpiSalary": "1500000",
+      "conditions": "IN"
+    },
+    {
+      "id": 4,
+      "no": "4",
+      "from": "121%",
+      "to": "130%",
+      "kpiSalary": "2000000",
+      "conditions": "IN"
+    },
+    {
+      "id": 5,
+      "no": "5",
+      "from": "131%",
+      "to": "137%",
+      "kpiSalary": "2500000",
+      "conditions": "IN"
+    },
+    {
+      "id": 6,
+      "no": "6",
+      "from": "138%",
+      "to": "145%",
+      "kpiSalary": "3000000",
+      "conditions": "IN"
+    },
+    {
+      "id": 7,
+      "no": "7",
+      "from": "145%",
+      "to": "",
+      "kpiSalary": "4000000",
+      "conditions": ">"
+    }
+  ],
+  "password": {
+    "oldpassword": "1234",
+    "newPassword": "12345",
+    "currentPassword": "12345"
+  },
+  "user": [
+    {
+      "username": "Đặng Hữu Thiện",
+      "age": 26,
+      "address": "Hà Nội",
+      "mail": "huuthiennd@gmail.com",
+      "gender": "Male"
+    }
+  ],
+  "performance1": [
+    {
+      "id": 12,
+      "date": "2022-10-02T08:55:06.374Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "19"
+    },
+    {
+      "date": "2022-10-26T07:39:27.330Z",
+      "name": "123",
+      "role": "QA",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "6",
+      "id": 13
+    }
+  ],
+  "performance2": [
+    {
+      "date": "2022-10-22T10:48:52.922Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "77",
+      "id": 12
+    },
+    {
+      "date": "2022-10-24T08:26:01.940Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "QA",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "100",
+      "id": 13
+    },
+    {
+      "date": "2022-10-26T08:28:23.382Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "6",
+      "id": 14
+    }
+  ],
+  "performance3": [
+    {
+      "date": "2022-10-09T07:20:20.719Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "100",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "date": "2022-10-17T07:22:20.554Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "QA",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "12124141"
+    }
+  ],
+  "performance4": [
+    {
+      "date": "2022-10-04T07:37:59.500Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "13124414",
+      "id": 3
+    },
+    {
+      "date": "2022-10-04T07:37:59.500Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "13124414",
+      "id": 5
+    },
+    {
+      "date": "2022-10-10T07:38:45.897Z",
+      "name": "Đặng Hữu Thiện",
+      "role": "Modify",
+      "startTime": "08:00",
+      "endTime": "17:00",
+      "pfm": "1311",
+      "id": 6
+    }
+  ]
+}
