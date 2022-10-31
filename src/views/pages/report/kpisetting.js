@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Table, Tag, Space } from 'antd';
+import React, { useEffect } from 'react'
+import { Table } from 'antd';
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchKpiAction } from '../../../redux/actions/kpi'
 /**

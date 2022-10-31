@@ -23,10 +23,10 @@ const tailLayout = {
 
 export const PfmPage3 = () => {
 
-    const [pageSize, setPageSize] = useState(6)
+    const [pageSize] = useState(6)
     const [current, setCurrent] = useState(1)
     const [form] = useForm();
-    const [roles, setRole] = useState([
+    const [roles] = useState([
         {
             dataIndex: 'Annotator',
             key: 'Annotator',

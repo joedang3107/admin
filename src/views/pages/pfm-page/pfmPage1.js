@@ -5,7 +5,7 @@ import { Table, Input, Typography, Form, Button, Select, DatePicker, Space } fro
 import { useForm } from 'antd/es/form/Form';
 
 import './style.css'
-import { AddPfm1Action, FetchPfm1Action } from '../../../redux/actions/page1Action';
+import { AddPfm1Action } from '../../../redux/actions/page1Action';
 import { FetchPfms1Action } from '../../../redux/actions/page1Action';
 import { FetchUserAction } from '../../../redux/actions/user';
 import { DeletePfm1Action } from '../../../redux/actions/page1Action';
@@ -23,10 +23,10 @@ const tailLayout = {
 
 export const PfmPage1 = () => {
 
-    const [pageSize, setPageSize] = useState(6)
+    const [pageSize] = useState(6)
     const [current, setCurrent] = useState(1)
     const [form] = useForm();
-    const [roles, setRole] = useState([
+    const [roles] = useState([
         {
             dataIndex: 'Annotator',
             key: 'Annotator',

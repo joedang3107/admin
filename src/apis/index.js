@@ -207,4 +207,24 @@ function fetchPassword(data) {
     })
 }
 
-export { login, fetchProjects, fetchKpi, fetchPfms1, fetchPfms2, fetchPfms3, fetchPfms4, fetchUser, updatePassword, fetchPassword, addPfm1, addPfm2, addPfm3, addPfm4, deletePfm1, deletePfm2, deletePfm3, deletePfm4, editPfm1, editPfm2, editPfm3, editPfm4, fetchPfm1, fetchPfm2, fetchPfm3, fetchPfm4 }
+// leave
+
+function fetchLeave(data) {
+    return axios.get(`${base_api}/leave`, data).then(res => {
+        return res.data
+    })
+}
+
+function addLeave(data) {
+    return axios.post(`${base_api}/leave`, data).then(res => {
+        return res.data
+    })
+}
+
+function deleteLeave(id) {
+    return axios.delete(`${base_api}/leave/${id}`).then(res => {
+        return res.data
+    })
+}
+
+export { login, fetchProjects, fetchKpi, fetchPfms1, fetchPfms2, fetchPfms3, fetchPfms4, fetchUser, updatePassword, fetchPassword, addPfm1, addPfm2, addPfm3, addPfm4, deletePfm1, deletePfm2, deletePfm3, deletePfm4, editPfm1, editPfm2, editPfm3, editPfm4, fetchPfm1, fetchPfm2, fetchPfm3, fetchPfm4, fetchLeave, addLeave, deleteLeave }

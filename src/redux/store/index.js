@@ -9,6 +9,7 @@ import pfm2saga from '../saga/pfm2saga'
 import pfm3saga from '../saga/pfm3saga'
 import pfm4saga from '../saga/pfm4saga'
 import usersaga from '../saga/usersaga'
+import leavesaga from '../saga/leavesaga'
 
 import reducerAll from '../reducers'
 import { composeWithDevTools } from 'redux-devtools-extension'
@@ -30,6 +31,7 @@ sagaMiddleware.run(pfm3saga)
 sagaMiddleware.run(pfm4saga)
 sagaMiddleware.run(kpisaga)
 sagaMiddleware.run(usersaga)
+sagaMiddleware.run(leavesaga)
 
 
 // store.subscribe(() => {

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Card, Form, Input, Button, Checkbox, Typography } from 'antd';
+import React, { useEffect } from 'react'
+import { Card, Form, Input, Button, Typography } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { useHistory } from "react-router"
 import * as type from '../../../redux/const/index'
@@ -18,7 +18,7 @@ const { Text } = Typography;
 * @function LoginPage
 **/
 
-const LoginPage = ({ isLoggedIn, message, isSubmitting, login }) => {
+const LoginPage = ({ isLoggedIn, message, isSubmitting }) => {
 
     let history = useHistory()
 
@@ -77,32 +77,6 @@ const LoginPage = ({ isLoggedIn, message, isSubmitting, login }) => {
                             {
                                 required: true,
                                 message: 'Please input your password!',
-                            },
-                            {
-                                validator: (_, value) => {
-                                    let check = false
-                                    let message = ""
-                                    if (value && value.length > 3) {
-                                        check = true
-                                    }
-                                    else {
-                                        message = "Xin hãy nhập ít nhất 3 ký tự"
-                                    }
-                                    return check ? Promise.resolve() : Promise.reject(message)
-                                }
-                            },
-                            {
-                                validator: (_, value) => {
-                                    let check = false
-                                    let message = ""
-                                    if (value && value == (value.charAt(0).toUpperCase() + value.slice(1).toLowerCase())) {
-                                        check = true
-                                    }
-                                    else {
-                                        message = "Mật khẩu phải có chữ cái đầu viết hoa"
-                                    }
-                                    return check ? Promise.resolve() : Promise.reject(message)
-                                }
                             }
                         ]}
                     >

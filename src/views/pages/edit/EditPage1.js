@@ -21,7 +21,7 @@ export const EditPage1 = (props) => {
 
     const [form] = useForm()
     const [isFirstTime, setIsFirstTime] = useState(true)
-    const [roles, setRole] = useState([
+    const [roles] = useState([
         {
             dataIndex: 'Annotator',
             key: 'Annotator',

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LoginPage  from './views/pages/login/LoginPage';
 import { DefaultLayout } from './layouts/DefaultLayout';
 import { PrivateRoute } from './redux/routers/PrivateRoute';

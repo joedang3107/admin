@@ -1,6 +1,6 @@
 import { Dashboard } from "./views/pages/dashboard/Dashboard";
 import { Projects } from "./views/pages/project-pages/projects/Projects";
-import { ProjectOutlined, DashboardFilled, OrderedListOutlined, ScheduleOutlined, FileTextOutlined, DatabaseOutlined  } from '@ant-design/icons'
+import { ProjectOutlined, DashboardFilled, OrderedListOutlined, ScheduleOutlined, FileTextOutlined, DatabaseOutlined, UserDeleteOutlined } from '@ant-design/icons'
 import { PfmPage1 } from "./views/pages/pfm-page/pfmPage1";
 import { PfmPage2 } from "./views/pages/pfm-page/pfmPage2";
 import { PfmPage3 } from "./views/pages/pfm-page/pfmPage3";
@@ -12,6 +12,7 @@ import { EditPage3 } from "./views/pages/edit/EditPage3";
 import { EditPage4 } from "./views/pages/edit/EditPage4";
 import { Profile } from "./views/pages/profile/Profile";
 import { EmployeeSchedule } from "./views/pages/employeeschedule/EmpSchedule";
+import { Leave } from "./views/pages/leave/Leave";
 
 const routers = [
     {
@@ -122,6 +123,13 @@ const routers = [
                 children: [],
             },
         ],
+    },
+    {
+        path: '/leave',
+        title: "LEAVE REQUEST",
+        icon: <UserDeleteOutlined />,
+        component: <Leave />,
+        children: []
     },
     {
         path: '/profile',
