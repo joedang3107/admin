@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Table, Input, Typography, Form, Button, Select, DatePicker, Space } from 'antd';
 import { useForm } from 'antd/es/form/Form';
+import { EditOutlined, DeleteOutlined } from  '@ant-design/icons'
 
 import './style.css'
 import { AddPfm1Action } from '../../../redux/actions/page1Action';
@@ -76,8 +77,8 @@ export const PfmPage1 = () => {
             key: 'actions',
             render: (data) => (
                 <Space size="middle">
-                    <a onClick={() => editAction(data)}>Edit</a>
-                    <a onClick={() => deleteAction(data)}>Delete</a>
+                    <a onClick={() => editAction(data)}><EditOutlined /></a>
+                    <a onClick={() => deleteAction(data)}><DeleteOutlined /></a>
                 </Space>
             )
         }
@@ -158,7 +159,7 @@ export const PfmPage1 = () => {
     }
     return (
         <>
-            <h2>Daily performance 1</h2>
+            <h2>Cygnus 3D</h2>
             <div>
                 <Form form={form} onFinish={onFinish} title="Basic Modal" width={1000} labelCol={{ span: 8 }}
                     wrapperCol={{ span: 6 }}

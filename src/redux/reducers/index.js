@@ -7,7 +7,8 @@ import { pfm3Reducer } from './pfm3Reducer'
 import { pfm4Reducer } from './pfm4Reducer'
 import { userReducer } from './userReducer'
 import { projectsReducer } from './projectReducer'
+import { leaveReducer } from './leaveReducer'
 
-let reducerAll = combineReducers({ auth: authReducer, projects: projectsReducer, kpi: kpiReducer, pfm1: pfm1Reducer, pfm2: pfm2Reducer, pfm3: pfm3Reducer, pfm4: pfm4Reducer, user: userReducer })
+let reducerAll = combineReducers({ auth: authReducer, projects: projectsReducer, kpi: kpiReducer, pfm1: pfm1Reducer, pfm2: pfm2Reducer, pfm3: pfm3Reducer, pfm4: pfm4Reducer, user: userReducer, leave: leaveReducer })
 
 export default reducerAll;
