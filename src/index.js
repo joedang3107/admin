@@ -21,7 +21,7 @@ if (token) {
   let curTimeStamp = new Date().getTime()
 
   if (exp > curTimeStamp) {
-    alert("valid")
+    // alert("valid")
     // if token still valid thì gán lại trạng thái login  
     store.dispatch({
       type: "USER_LOGIN_SUCCEEDED", payload: {
