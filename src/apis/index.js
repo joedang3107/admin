@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { getToken } from '../helpers/storage'
-let base_api = "https://admin-api-ims.herokuapp.com"
+let base_api = "http://localhost:3001"
 
 //set request headers
 export const setAxiosToken = () => {
