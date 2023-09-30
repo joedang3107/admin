@@ -14,6 +14,8 @@ import { Profile } from "./views/pages/profile/Profile";
 import { EmployeeSchedule } from "./views/pages/employeeschedule/EmpSchedule";
 import { Leave } from "./views/pages/leave/Leave";
 
+
+
 const routers = [
     {
         path: '/dashboard',
