@@ -1,0 +1,3 @@
+[submodule "admin-api-ims"]
+	path = admin-api-ims
+	url = https://github.com/joedang3107/admin-api-ims
